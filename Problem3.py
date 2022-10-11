@@ -1,4 +1,3 @@
 inputList=[1,2,3,4,5,6,7,8,9]
 
-for i in inputList:
-  print(i)
+[print(i) for i in inputList]

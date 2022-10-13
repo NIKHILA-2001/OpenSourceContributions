@@ -1,5 +1,5 @@
-p=[1,2,3,4,5]
 
-one, two, three, four,five = p
+
+one, two, three, four,five = input("enter any 5 numbers").split()
 
 print(one, two, three, four,five)

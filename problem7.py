@@ -1,10 +1,8 @@
 x = 5
 y = 10
 
-#  swap the values
-temp = x
-x = y
-y = temp
+#new logic
+x,y=y,x
 
-printf('The value of x after swapping:'.format(x))
-printf('The value of y after swapping:'.format(y))
+printf('The value of x after swapping:{0}'.format(x))
+printf('The value of y after swapping:{0}'.format(y))

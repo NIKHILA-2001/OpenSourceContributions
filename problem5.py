@@ -1,4 +1,4 @@
-for(i=0;i<19;i++):
-  printf("hello praneeth")
+for _ in range(10):
+  print("hello praneeth")
   
   
